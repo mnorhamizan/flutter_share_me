@@ -1,5 +1,5 @@
 #import "FlutterShareMePlugin.h"
-
+#import "FBSDKShareKit.h"
 @implementation FlutterShareMePlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
     FlutterMethodChannel* channel = [FlutterMethodChannel
